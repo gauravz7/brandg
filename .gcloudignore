@@ -1,0 +1,11 @@
+.git
+.gitignore
+node_modules/
+venv/
+.next/
+results/
+__pycache__/
+*.pyc
+.DS_Store
+deploy.sh
+README.md
