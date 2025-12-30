@@ -22,7 +22,7 @@ interface ResultsProps {
   };
 }
 
-const API_BASE = "http://localhost:8000"; // Dev default
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export default function ResultsDashboard({ data }: ResultsProps) {
   const { brand_data, guidelines, pdf_url, screenshot_url, assets_urls, css_urls } = data;

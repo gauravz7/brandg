@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Loader2, Sparkles, ArrowRight } from 'lucide-react';
 import ResultsDashboard from '../components/ResultsDashboard';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export default function Home() {
   const [url, setUrl] = useState('');
