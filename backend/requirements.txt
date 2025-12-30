@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+playwright
+google-cloud-aiplatform
+google-genai
+python-dotenv
+pydantic
+reportlab
+aiofiles
+httpx
+jinja2
+python-multipart
+svglib
+playwright-stealth
+pillow
+cffi
